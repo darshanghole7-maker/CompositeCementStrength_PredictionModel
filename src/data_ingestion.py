@@ -17,5 +17,6 @@ def data_ingestion():
  ---------------------------------------------------------------------------
       
   '''
-  df = pd.read_csv("/content/Concrete_Data - Concrete_Data.csv")
+  df = pd.read_csv("C:\\CompositeCementStrength_PredictionModel\\data\\Concrete_Data.csv")
+  
   return df
